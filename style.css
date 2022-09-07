@@ -3,6 +3,8 @@ body
     display: flex;
     flex-direction: column;
     margin:0;
+
+
 }
 
 .header{
@@ -12,6 +14,47 @@ body
     color: #F9FAF8;
     align-items: center;
     font-size:24px;
+
+}
+
+
+.header-content
+{
+    display: flex;
+
+    background-color: #1F2937;
+
+   outline: red 5px solid;
+  justify-content: space-around;
+    /* revisit this */
+    padding: 30px;
+
+
+
+}
+
+/* revisit this */
+.header-text-container
+{
+max-width: 350px;
+}
+
+.main-text{
+    font-size: 48px;
+
+
+}
+
+.secondary-text{
+    font-size: 18px;
+
+}
+
+#cartoon-woman
+{
+    height: 300px;
+    width: 320px;
+
 }
 
 ul{
@@ -26,3 +69,4 @@ a{
     text-decoration: none;
     font-size: 18px;
 }
+
