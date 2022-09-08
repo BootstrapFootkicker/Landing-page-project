@@ -30,7 +30,6 @@ body {
 
 }
 
-/* revisit this */
 .header-text-container {
     max-width: 400px;
     margin-left: 20px;
@@ -65,6 +64,34 @@ body {
     margin: 4px 2px;
 }
 
+.picture-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+
+
+}
+
+.random-info{
+    display: flex;
+    justify-content: center;
+   padding: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #152937;
+}
+
+.pic-text-container {
+    display: flex;
+ flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 160px;
+    text-align: center;
+}
+
 
 #cartoon-woman {
     height: 300px;
@@ -85,3 +112,7 @@ a {
     font-size: 18px;
 }
 
+img {
+    height: 150px;
+    width: 160px;
+}
